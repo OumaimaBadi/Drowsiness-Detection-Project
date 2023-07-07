@@ -27,8 +27,7 @@ https://prezi.com/p/mv94z4ipr4om/projet15/?fallback=1
 
 ## Contributors
 
-BADI Oumaima
-BELFROUH Sanae
+BADI Oumaima && BELFROUH Sanae
 
 Feel free to contribute to this project by opening issues, submitting pull requests, or suggesting new features.
 
