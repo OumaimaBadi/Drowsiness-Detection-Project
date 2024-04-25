@@ -47,6 +47,30 @@ These images illustrate the real-time detection capabilities of SomnoGuard, show
 - Integrate an infrared lighting system that activates only during nighttime for enhanced scene acquisition.
 - Incorporate gaze direction analysis to precisely monitor the driver's focus.
 
+## Dataset Description
+
+For the development of the SomnoGuard system, we utilized a specific component of the "Drowsiness Dataset" hosted on Kaggle by Dheeraj Perumandla. This dataset is tailored for the detection of real-time drowsiness in drivers, aligning perfectly with our project’s objectives.
+
+### Data Overview
+
+The dataset includes a collection of eye images categorized into 'open' and 'closed' states, featuring diverse shapes, sizes, and colors. These images form the basis for training our Convolutional Neural Networks (CNN) to detect eye states indicative of drowsiness. Additionally, the dataset includes labels for yawning ('yawn' and 'not yawn').
+
+### Data Utilization
+
+- **Eye Images:** We used these images to train our CNN, benefiting from the wide variety of eye shapes and colors to ensure our model performs reliably across different individuals and under various lighting conditions.
+- **Yawning Data:** Although the dataset contains yawning data, we chose not to use this for deep learning. Instead, we applied a simpler and direct measurement method using the Lip Activity Ratio (LAR) to detect signs of yawning. This decision was based on achieving optimal accuracy with less computational demand, which suits our hybrid approach to fatigue detection.
+
+### Data Collection
+
+The dataset's eye images were collected under diverse conditions, ensuring a broad spectrum of data that includes different ethnicities, lighting scenarios, and facial expressions. This diversity is crucial for a model that is effectively generalizable to real-world scenarios, where such factors can significantly influence detection accuracy.
+
+### Contribution to Hybrid Approach
+
+By leveraging a combination of deep learning for eye state detection and a simpler algorithmic approach for yawning detection through the Lip Activity Ratio, our hybrid method not only enhances accuracy but also optimizes computational efficiency. This approach allows SomnoGuard to offer reliable, real-time monitoring and detection of drowsiness and fatigue in drivers.
+
+For more detailed information on the dataset, you can visit the Kaggle dataset page: [Drowsiness Dataset](https://www.kaggle.com/datasets/dheerajperumandla/drowsiness-dataset)
+
+
 ## Presentation
 
 [View the Presentation on Prezi](https://prezi.com/p/mv94z4ipr4om/projet15/?fallback=1)
